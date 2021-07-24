@@ -1,0 +1,1 @@
+# QQ-Miniprogram-Batch-Add-Trial-Permission-Tool
