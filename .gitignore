@@ -132,3 +132,4 @@ dmypy.json
 打包输出发布版.bat
 package-lock.json
 package.json
+输出.zip
