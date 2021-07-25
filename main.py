@@ -19,13 +19,13 @@ confirm_message = pyautogui.alert(
 print(confirm_message)
 
 # 第一次激活输入框
-pyautogui.click(screenWidth / 2, screenHeight / 6)
+pyautogui.click(screenWidth / 2, screenHeight / 5.2)
 pyautogui.press('browserrefresh')
 time.sleep(1.5)
 
 # 第二至最后一次输入信息
 for qqnum in list(qqlist):
-    pyautogui.click(screenWidth / 2, screenHeight / 6)
+    pyautogui.click(screenWidth / 2, screenHeight / 5.2)
     pyautogui.press('tab')
     pyautogui.write(qqnum, interval=0.01)
     pyautogui.press('tab')

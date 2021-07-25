@@ -1,0 +1,20 @@
+{
+  "name": "qq-miniprogram-batch-add-trial-permission-tool",
+  "version": "1.0.0",
+  "description": "批量添加 QQ 小程序体验权限工具，节省批量添加的时间！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinShiCN/QQ-Miniprogram-Batch-Add-Trial-Permission-Tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinShiCN/QQ-Miniprogram-Batch-Add-Trial-Permission-Tool/issues"
+  },
+  "homepage": "https://github.com/KevinShiCN/QQ-Miniprogram-Batch-Add-Trial-Permission-Tool#readme"
+}
