@@ -23,7 +23,7 @@ pyautogui.click(screenWidth / 2, screenHeight / 5.2)
 pyautogui.press('browserrefresh')
 time.sleep(1.5)
 
-# 第二至最后一次输入信息
+# 循环填写QQ号
 for qqnum in list(qqlist):
     pyautogui.click(screenWidth / 2, screenHeight / 5.2)
     pyautogui.press('tab')
