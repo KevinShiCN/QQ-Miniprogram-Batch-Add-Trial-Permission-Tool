@@ -43,7 +43,7 @@ if confirm_qqlist in "确定！":
 
     # 勾选体验者权限并跳转至最后
     tiyan_clickbox = pyautogui.locateCenterOnScreen(
-        'tiyan_clickbox.png', grayscale=True)
+        r'tiyan_clickbox.png', grayscale=True)
     if tiyan_clickbox is None:
         pyautogui.alert(
             text='无法找到体验权限按钮！请手动进行后续操作！', title='错误：无法定位体验权限按钮', button='确定！')
@@ -51,7 +51,7 @@ if confirm_qqlist in "确定！":
         pyautogui.click(tiyan_clickbox)
         pyautogui.press('end')
         pyautogui.alert(
-            text='已完成！请点击【确认添加】', title='成功结束！', button='辛苦了！接下来我自己来！')
+            text='已完成！请点击【确认添加】', title='成功结束！', button='辛苦了！接下来的路我自己走！')
 # 用户手动取消
 else:
     canceled = pyautogui.alert(
