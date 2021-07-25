@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+## 自定义
+打包输出发布版.bat
+package-lock.json
+package.json
+输出.zip
+
 # C extensions
 *.so
 
@@ -128,8 +134,3 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-## 自定义
-打包输出发布版.bat
-package-lock.json
-package.json
-输出.zip
