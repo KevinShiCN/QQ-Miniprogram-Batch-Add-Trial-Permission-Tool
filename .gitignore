@@ -3,11 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-## 自定义
+# 自定义
 打包输出发布版.bat
 package-lock.json
 package.json
 输出.zip
+abandoned.py
+compress_zip.py
 
 # C extensions
 *.so
