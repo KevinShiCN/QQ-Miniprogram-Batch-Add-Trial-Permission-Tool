@@ -1,5 +1,6 @@
 # QQ-Miniprogram-Batch-Add-Trial-Permission-Tool.
 
+
 [TOC]
 批量添加 QQ 小程序体验权限工具，节省批量添加的时间！
 
